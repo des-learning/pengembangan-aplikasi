@@ -32,7 +32,7 @@ Struktur directory default project ANT Netbeans:
 
   file hasil build (JAR/WAR) dan file paket lain yang dibutuhkan pada saat build (boleh tidak disertakan pada saat distribusi code)
 
-## Menentukan mainClass pada saat buidl JAR
+## Menentukan mainClass pada saat build JAR
 
 1. Buka file `pom.xml`
 2. Tambahkan code di bawah ini di antara tag `<project>...</project>`.
