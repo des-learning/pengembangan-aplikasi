@@ -60,6 +60,7 @@ Langkah-langkah:
 1. Klik kanan pada project, pilih `Properties`
 2. Pilih category `Run` dan kemudian ganti isian `Main Class` sesuai dengan nama class utama yang akan dijalankan
 3. Klik OK untuk menyimpan konfigurasi
+4. Build ulang project untuk mendapatkan JAR dengan mainClass yang sesuai
 
 ## Melakukan debugging (melihat state)
 
