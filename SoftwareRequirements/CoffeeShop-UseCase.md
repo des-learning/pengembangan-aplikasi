@@ -228,14 +228,14 @@ Masing-masing use case perlu dibuatkan narasi.
     
     **Precondition**
     
-   User sudah login sebagai user manajemen.
+    User sudah login sebagai user manajemen.
    
-   **Normal Flow**
+    **Normal Flow**
    
-   1. User mengakses menu laporan dan memilih laporan POS.
-   2. Sistem menampilkan form untuk menerima input kriteria laporan.
-   3. User menginput kriteria laporan dan mengklik tombol report.
-   4. Sistem mengolah data report dan kemudian menampilkan laporan kepada user.
+    1. User mengakses menu laporan dan memilih laporan POS.
+    2. Sistem menampilkan form untuk menerima input kriteria laporan.
+    3. User menginput kriteria laporan dan mengklik tombol report.
+    4. Sistem mengolah data report dan kemudian menampilkan laporan kepada user.
    
 12. Report Cash Register
 
@@ -245,14 +245,14 @@ Masing-masing use case perlu dibuatkan narasi.
     
     **Precondition**
     
-   User sudah login sebagai user manajemen.
+    User sudah login sebagai user manajemen.
    
-   **Normal Flow**
+    **Normal Flow**
    
-   1. User mengakses menu laporan dan memilih laporan Cash Register.
-   2. Sistem menampilkan form untuk menerima input kriteria laporan.
-   3. User menginput kriteria laporan dan mengklik tombol report.
-   4. Sistem mengolah data report dan kemudian menampilkan laporan kepada user.
+    1. User mengakses menu laporan dan memilih laporan Cash Register.
+    2. Sistem menampilkan form untuk menerima input kriteria laporan.
+    3. User menginput kriteria laporan dan mengklik tombol report.
+    4. Sistem mengolah data report dan kemudian menampilkan laporan kepada user.
    
 13. Cash In/Out
 
