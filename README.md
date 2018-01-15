@@ -12,3 +12,10 @@ Medan.
    - HelloGradle (gradle build system)
    - HelloJavaFX (JavaFX GUI Framework)
    
+   Tools version control: git
+   
+2. Software Requirements Specification
+
+   Mengumpulkan dan menganalisis kebutuhan/persyaratan untuk aplikasi yang
+   dibangun. Berikutnya dilanjutkan dengan merancang flow, arsitektur dan
+   solusi yang akan diimplementasikan ke dalam aplikasi.
