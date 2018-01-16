@@ -1,8 +1,13 @@
-### Use Case Diagram
+## Use Case Diagram
 
 Berdasarkan *features* yang telah di-design, dibuatkan diagram *use case*.
      
    ![coffee-shop-use-case-diagram](images/coffee-shop-use-case.png "Coffee Shop Use Case Diagram")
+   
+Simbol lingkaran elips menunjukkan *use case* untuk proses tertentu dan simbol orang pada diagram tersebut menunjukkan aktor yang terlibat dalam *use case* tersebut.
+
+Simbol panah menunjukkan generalisasi (super class/extends), pada diagram contoh di atas *staff kasir* dan
+*staff manajemen* merupakan sub dari aktor *staff*.
    
 Masing-masing use case perlu dibuatkan narasi.
 
