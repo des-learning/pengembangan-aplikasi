@@ -148,7 +148,7 @@ public class ContohEvent extends Application implements Initializable {
     private void onListKey(KeyEvent event) {
         // delete key
         if (event.getCode() == KeyCode.DELETE && this.lstNama.getSelectionModel().getSelectedIndex() >= 0) {
-            String content = "Yakin delete " + namas.get(this.lstNama.getSelectionModel().getSelectedIndex()) + "?";
+            String content = "Yakin delete " + this.lstNama.getSelectionModel().getSelectedItem() + "?";
             if (confirmDialog("Delete", content) == ButtonType.OK)
                 deleteItem(this.lstNama.getSelectionModel().getSelectedIndex());
             // enter key
@@ -191,17 +191,17 @@ public class ContohEvent extends Application implements Initializable {
 
     // tambahkan item
     private void addItem(String item) {
-        namas.add(item);
+        lstNama.getItems().add(item);
     }
 
     // update item
     private void updateItem(int index, String item) {
-        namas.set(index, item);
+        lstNama.getItems().set(index, item);
     }
 
     // hapus item
     private void deleteItem(int index) {
-        namas.remove(index);
+        lstNama.getItems().remove(index);
     }
 
     // ketika stage di tutup
