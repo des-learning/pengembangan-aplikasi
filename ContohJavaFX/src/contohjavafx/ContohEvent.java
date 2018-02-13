@@ -1,13 +1,10 @@
 package contohjavafx;
 
 import javafx.application.Application;
-import javafx.beans.InvalidationListener;
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.ListProperty;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleListProperty;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.event.Event;
@@ -221,7 +218,8 @@ public class ContohEvent extends Application implements Initializable {
         alert.setHeaderText(header);
         alert.setContentText(content);
         // show and wait return Optional<ButtonType>, nilainya bisa kosong (empty) atau button type.
-        return alert.showAndWait().get();
+        // jika kosong kembalikan tombol cancel
+        return alert.showAndWait().orElse(ButtonType.CANCEL);
     }
 
     public static void main(String[] args) {
